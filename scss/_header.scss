@@ -1,3 +1,13 @@
+/*Mixin*/
+/*Utilizado en el header y en el footer.*/
+@mixin anclas {
+    color: $color_2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 h1 {
     padding: 25px;
 }
@@ -28,10 +38,7 @@ header {
 }
 
 a {
-    color: $color_2;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
+    @include anclas;
 }
 
 div {
