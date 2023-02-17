@@ -10,7 +10,7 @@ h1 {
 
 .principal {
     text-align: center;
-    border-bottom: 1px black dashed;
+    border-bottom: 1px $color_2 dashed;
 
 }
 
@@ -19,7 +19,7 @@ header {
         li {
             display: inline-block;
             margin: 20px;
-            border: 1.5px black solid;
+            border: 1.5px $color_2 solid;
             padding: 5px;
             position: relative;
             bottom: 25px;
@@ -28,7 +28,7 @@ header {
 }
 
 a {
-    color: black;
+    color: $color_2;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
